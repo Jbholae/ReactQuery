@@ -1,6 +1,7 @@
 
 import './App.css';
 import { QueryClientProvider, QueryClient } from 'react-query';
+import Characters from './components/Characters';
 
 const queryClient = new QueryClient();
 
